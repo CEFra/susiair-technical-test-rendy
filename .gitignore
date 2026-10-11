@@ -1,0 +1,10 @@
+node_modules/
+.nuxt/
+.output/
+.vercel/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+*.log
+.env

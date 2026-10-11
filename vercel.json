@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "cd nuxt && npm run generate",
+  "outputDirectory": "nuxt/.output/public",
+  "framework": "nuxtjs"
+}

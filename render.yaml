@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: susiair-backend
+    env: node
+    buildCommand: cd nest && npm install && npm run build
+    startCommand: cd nest && npm run start:prod
+    envVars:
+      - key: NODE_ENV
+        value: production
